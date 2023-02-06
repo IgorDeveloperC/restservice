@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
     }
     else {
         cout << "Please restart service with parameters: threads count, max cache capacity" << '\n';
-      // return 0; //commented for testing
+       return 0; //commented for testing
     }
    
     crossplat::threadpool::initialize_with_threads(threads);
