@@ -12,6 +12,8 @@ using namespace utility;
 using namespace http::experimental::listener;
 
 
+
+
 std::unique_ptr<handler> g_httpHandler;
 
 void on_initialize(const string_t& address,const int& capacity)
@@ -53,9 +55,9 @@ int main(int argc, char* argv[])
     }
     else {
         cout << "Please restart service with parameters: threads count, max cache capacity" << '\n';
-       return 0; //commented for testing
+      // return 0; //commented for testing
     }
-    
+   
     crossplat::threadpool::initialize_with_threads(threads);
 
     utility::string_t address = U("http://127.0.0.1:8080");

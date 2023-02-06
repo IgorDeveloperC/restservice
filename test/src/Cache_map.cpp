@@ -27,6 +27,7 @@ int Cache_map::Find(int& key) {
 	int current_task_counter = getNextValue();			 //update current counter
 	_time_cache.erase(_cache[key].second);
 	_time_cache.insert_or_assign(current_task_counter, key);
+	_cache[key].second = current_task_counter;
 	return _cache[key].first;
 }
 

@@ -3,19 +3,5 @@
   - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
   - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
   Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
-  Cache_map.cpp
-  handler.cpp
-  threadpool.cpp
-  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
-  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
-  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
-  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
-C:\Users\user\Desktop\lol\test\test\src\threadpool.cpp(198,43): warning C4273: crossplat::threadpool::shared_instance: несовместимое связывание dll
-C:\Users\user\Desktop\lol\test\test\include\threadpool.h(52,36): message : см. предыдущее определение "shared_instance"
-C:\Users\user\Desktop\lol\test\test\src\threadpool.cpp(231,63): warning C4273: crossplat::threadpool::construct: несовместимое связывание dll
-C:\Users\user\Desktop\lol\test\test\include\threadpool.h(53,60): message : см. предыдущее определение "construct"
-  Создание кода...
      Создается библиотека C:\Users\user\Desktop\lol\test\x64\Debug\test.lib и объект C:\Users\user\Desktop\lol\test\x64\Debug\test.exp
   test.vcxproj -> C:\Users\user\Desktop\lol\test\x64\Debug\test.exe
-  test.vcxproj -> C:\Users\user\Desktop\lol\test\x64\Debug\test.pdb (частичный -> полный PDB)
-C:\Users\user\Desktop\lol\test\x64\Debug\test.pdb : fatal error CMF1107: 
