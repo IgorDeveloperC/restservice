@@ -1,3 +1,0 @@
-/home/igor/Test/test/build/CMakeFiles/restserver.dir
-/home/igor/Test/test/build/CMakeFiles/edit_cache.dir
-/home/igor/Test/test/build/CMakeFiles/rebuild_cache.dir
